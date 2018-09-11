@@ -1,6 +1,6 @@
 ## Redux in 4 steps
 
--npm install --save react-redux
+# npm install --save react-redux
 
 1. Create store(reducer,state)
 2. Create reducer(state,action)
