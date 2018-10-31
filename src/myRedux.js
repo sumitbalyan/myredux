@@ -5,7 +5,7 @@ export default class myRedux extends Component {
     constructor (props) {
       super(props)
       this.state={
-          name:'initial'
+          name:'initial data'
       }
     }
   render() {
