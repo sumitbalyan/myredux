@@ -28,7 +28,7 @@ export default class myRedux extends Component {
           console.log("Store state is: "+JSON.stringify(store.getState()));
       });
     //4. dispatch action
-      store.dispatch({type:"ATTACK",payload:"IRON MAN"});
+      store.dispatch({type:"ATTACK",payload:"CAPTAIN AMERICA"});
       //console.log("Store state is: "+JSON.stringify(store.getState()));
     return (
       <div>
