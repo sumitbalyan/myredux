@@ -13,7 +13,7 @@ export default class myRedux extends Component {
      const reducer = (state = this.state, action) => {
           switch (action.type) {
               case "ATTACK":{
-                    return Object.assign({storage:'RAM'},...state,{name:action.payload})
+                    return Object.assign({storage:'ROM'},...state,{name:action.payload})
               }
              
               default:
